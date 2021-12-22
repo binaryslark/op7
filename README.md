@@ -1,7 +1,14 @@
 # Intro
+op7仓库是由活跃于XDA论坛的blu spark发布，适用于OnePlus7/7T/7TPro设备。
 
-适用于Android 10的op7仓库分支。
-基于blu spark的op7做了一点修改，以支持内核功能开发。
+blu_spark-10分支，适用于Android 10的设备。
+
+OnePlus在github官方也开源了内核代码，blu spark基于此开发，添加了一些feature。
+
+为何选择使用blu spark, 而不选用OnePlus官方的内核代码库？
+根据经验，使用OnePlus官方发布的内核代码编译生成的内核，刷入设备后会遇到WIFI失效等问题。blu spark的op7仓库则不会遇到此问题。
+
+这里基于blu spark的op7做了一点修改，以支持内核功能开发。
 
 # Build
 在Ubuntu 18.04上使用的交叉编译工具链是[gcc-arm-10.2](https://developer.arm.com/-/media/Files/downloads/gnu-a/10.2-2020.11/binrel/gcc-arm-10.2-2020.11-x86_64-aarch64-none-linux-gnu.tar.xz?revision=972019b5-912f-4ae6-864a-f61f570e2e7e&hash=69DCE959E8C9BCB04BC33D907D537CBD30ED56E9)
