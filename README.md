@@ -13,7 +13,7 @@ fork op7仓库，主要是在此基础上做一点修改，以支持某些功能
 # Build
 在Ubuntu 18.04 64位上使用的交叉编译工具链是[gcc-arm-10.2](https://developer.arm.com/-/media/Files/downloads/gnu-a/10.2-2020.11/binrel/gcc-arm-10.2-2020.11-x86_64-aarch64-none-linux-gnu.tar.xz?revision=972019b5-912f-4ae6-864a-f61f570e2e7e&hash=69DCE959E8C9BCB04BC33D907D537CBD30ED56E9)
 
-在armDeveloper网站可以找到其他版本的gcc，但适用于本分支内核编译的是gcc-arm-10.2。（blu spark在[XDA帖子](https://forum.xda-developers.com/t/kernel-blu_spark-r106-op7-pro-oos-custom-a10.3944179/)里说使用的是`Build with custom toolchain blu_gcc-10.1`, 网上找不到）
+在[armDeveloper网站](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-a/downloads)可以找到其他版本的gcc，但适用于本分支内核编译的是gcc-arm-10.2。（blu spark在[XDA帖子](https://forum.xda-developers.com/t/kernel-blu_spark-r106-op7-pro-oos-custom-a10.3944179/)里说使用的是`Build with custom toolchain blu_gcc-10.1`, 网上找不到）
 
 ```
 
